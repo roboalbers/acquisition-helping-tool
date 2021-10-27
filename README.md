@@ -11,8 +11,8 @@ Make sure you have the latest stable of Node.js installed on your machine.
 The ports used in the application are http://localhost:3000 and http://localhost:5000
 
 ## Setup
-To run this project, install it locally using npm:
 Clone the repo to the preferred location.
+To run this project, install it locally using npm:
 ```
 $ npm install
 $ npm postinstall 
