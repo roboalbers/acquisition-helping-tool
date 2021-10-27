@@ -1,0 +1,23 @@
+{
+	"name": "acquisition-helping-tool",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"postinstall": "cd client && npm install",
+		"server": "nodemon server/server.js",
+		"client": "cd client && npm run start",
+		"start-app": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"keywords": [],
+	"author": "hello@robertalbers.se",
+	"license": "ISC",
+	"dependencies": {
+		"concurrently": "^6.3.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"nodemon": "^2.0.3",
+		"uuid": "^8.3.2"
+	}
+}

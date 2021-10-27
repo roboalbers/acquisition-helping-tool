@@ -1,0 +1,41 @@
+$namespace: ".app";
+$primary: #4b8bca;
+$secondary: #fff;
+$pink: #f9cdda;
+$grey: #798189;
+@import "~bootstrap/scss/bootstrap";
+#{$namespace} {
+	&-container {
+		padding-top: var(--bs-gutter-x, 1rem);
+		padding-bottom: var(--bs-gutter-x, 1rem);
+	}
+	&-accordion-header {
+		button {
+			display: inline-grid;
+			grid-template-columns: 1fr 1fr 0fr;
+			&::after {
+				margin-left: 1rem;
+			}
+		}
+		&__subtitle {
+			text-align: right;
+			color: $grey;
+		}
+	}
+	&-form {
+		background-color: $primary;
+		border-left: 1rem solid $pink;
+		padding: 1rem;
+		&__row {
+			margin-top: 2rem;
+		}
+		&__control {
+			background-color: transparent !important;
+		}
+		h4,
+		.form-check-label,
+		.form-label {
+			color: $white;
+		}
+	}
+}
