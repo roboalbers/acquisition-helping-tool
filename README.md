@@ -15,7 +15,8 @@ Clone the repo to the preferred location.
 To run this project, install it locally using npm:
 ```
 $ npm install
-$ npm postinstall 
+
 And then to run the application from both the server and client you use:
+
 $ npm start-app
 ```
