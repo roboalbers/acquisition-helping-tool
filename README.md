@@ -12,7 +12,7 @@ The ports used in the application are http://localhost:3000 and http://localhost
 
 ## Setup
 To run this project, install it locally using npm:
-
+Clone the repo to the preferred location.
 ```
 $ npm install
 $ npm postinstall 
