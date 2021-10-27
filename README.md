@@ -1,5 +1,5 @@
 ## General info
-This project is React Application running on an Express server.
+This project is a React Application running on an Express server.
 	
 ## Technologies
 Project is created with:
