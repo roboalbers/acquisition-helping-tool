@@ -5,6 +5,7 @@ This project is React Application running on an Express server.
 Project is created with:
 * Create-React-App with React v17.0.2
 * Express v4.17.1
+* Node v14.17.6
 
 ## Prerequisites
 Make sure you have the latest stable of Node.js installed on your machine.
