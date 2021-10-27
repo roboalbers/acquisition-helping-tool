@@ -8,11 +8,7 @@ Project is created with:
 * Node v14.17.6
 
 ## Prerequisites
-<<<<<<< HEAD
-Make sure you have the latest stable version oof Node.js installed on your machine.
-=======
-Make sure you have the latest stable of version on Node.js installed on your machine.
->>>>>>> bf2ef66e246aab5fafefa1b240aa22a9ecaeb744
+Make sure you have the latest stable version of Node.js installed on your machine.
 The ports used in the application are:
 http://localhost:3000 and http://localhost:5000
 
